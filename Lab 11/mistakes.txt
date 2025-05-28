@@ -1,0 +1,16 @@
+1. training var
+2. testing var
+3. dropping pclass for no reason
+4. dropping age for no reason
+5. using mean instead of median in age filling for testing
+6. the gender based distribution was based on pclass instead
+7. le_title not defined
+8. in rescaling age and fare were done to train instead of test at the end
+9. axis should be 1 for x_train when dropping
+10. wrongly assigned at train_test_split x train x valid y train y valid is the correct order https://stackoverflow.com/questions/62068756/assigning-variables-returned-by-sklearn-train-test-split
+11. linsvc_clf.fit wrong order should be x then y
+12. randomforestclassifier not imported
+13. knn not imported
+14. knn_clf not given as argument to grid_knn
+15. calling pred_gnb instead of using predict()
+16. not defining acc_xg
